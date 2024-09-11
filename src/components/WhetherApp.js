@@ -51,7 +51,7 @@ const WhetherApp = () => {
 
             <Card  sx={{width:matches?"300px":"500px", backgroundColor:"transparent", backdropFilter:"blur(5px)", boxShadow:"1px 1px 10px black, 1px 1px 15px black ", marginTop:"20px",padding:"10px",display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column",  }} >
                 <Stack direction="row" alignItems="center" justifyContent="space-between">
-                    <TextField fullWidth
+                    <TextField 
                     sx={{padding:"10px"}}
                     placeholder='Enter City'
                         onChange={(e) => setSearchCity(e.target.value)}
